@@ -51,6 +51,7 @@ TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # MKHW
+BOARD_HARDWARE_CLASS += device/samsung/hlte-common/mkhw
 BOARD_HARDWARE_CLASS += hardware/samsung/mkhw
 
 # RIL
