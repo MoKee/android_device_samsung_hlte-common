@@ -50,9 +50,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
-BOARD_HARDWARE_CLASS += device/samsung/hlte-common/cmhw
-BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
+# MKHW
+BOARD_HARDWARE_CLASS += device/samsung/hlte-common/mkhw
+BOARD_HARDWARE_CLASS += hardware/samsung/mkhw
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
