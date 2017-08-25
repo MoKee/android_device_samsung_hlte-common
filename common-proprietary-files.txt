@@ -339,6 +339,22 @@ vendor/lib/libmm-abl-oem.so
 # Qualcomm
 vendor/lib/libxml.so
 
+# Qualcomm framework
+lib/libmdmdetect.so
+vendor/lib/libconfigdb.so
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+
 # Sensors
 lib/hw/sensorhubs.msm8974.so
 lib/hw/sensors.msm8974.so
