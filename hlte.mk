@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-mokee
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -50,7 +50,7 @@ PRODUCT_PACKAGES += \
 
 # Gestures
 PRODUCT_PACKAGES += \
-    org.lineageos.keyhandler
+    org.mokee.keyhandler
 
 # Input device
 PRODUCT_COPY_FILES += \
